@@ -1,0 +1,54 @@
+.resizable {
+    position: relative;
+}
+
+.resizer {
+    position: absolute;
+    
+}
+
+.resize-r {
+    cursor:ew-resize;
+    height: 100%;
+    width: 5px;
+    right: 0;
+    top: 0;
+}
+
+.resize-b {
+    cursor: ns-resize;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+}
+
+.resize-rb {
+    cursor: nwse-resize;
+    right: -3px;
+    bottom: -3px;
+    width: 5px;
+    height: 5px;
+}
+
+.resize-l {
+    cursor:ew-resize;
+    height: 100%;
+    width: 5px;
+    left: 0;
+    top: 0;
+}
+
+.resize-t {
+    cursor: ns-resize;
+    width: 100%;
+    height: 5px;
+    top: 0;
+}
+
+.resize-lt {
+    cursor: nwse-resize;
+    left: -3px;
+    top: -3px;
+    width: 5px;
+    height: 5px;
+}
